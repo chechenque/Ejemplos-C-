@@ -5,9 +5,9 @@
 using namespace std;
 
 int main(){
-    srand (time(NULL));
+    srand (time(NULL)); //semilla generada por hora de nuestro ordenador
     bool continuar = true;
-    int ruleta = rand() % 3 + 1;
+    int ruleta = rand() % 3 + 1; //numero aleatorio que empieza een 1 y teermina en 3
     string a,b,c,d;
     int x;
     
