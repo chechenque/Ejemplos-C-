@@ -5,7 +5,7 @@ using namespace std;
 int factorial(int x);
 int cuadrados(int x);
 int fibonacci(int x);
-int potencia(int x);
+int potencia(int x, int y);
 
 
 int factorial(int x){
